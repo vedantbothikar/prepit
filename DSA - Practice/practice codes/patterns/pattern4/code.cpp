@@ -6,6 +6,7 @@ int main () {
     cin>>n;
 
     int row=0;
+    int count = 1;
     while(row<n){
         int col=0;
         while(col<row+1){
@@ -13,8 +14,18 @@ int main () {
             // cout<<"*"<<" ";
             
             // B
-            cout<<row+1<<" ";
+            // cout<<row+1<<" ";
+
+            // C
+            // cout<<count<<" ";
+
+            // D
+            // cout<<row+1+col<<" ";
+
+            // E
+            cout<<row+1-col<<" ";
             
+            count++;
             col++;
 
         }
