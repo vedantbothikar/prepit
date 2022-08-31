@@ -2,22 +2,14 @@
 using namespace std;
 
 int main () {
-
     int n;
     cin>>n;
 
-    int row = 0;
-
+    int row=0;
     while(row<n){
         int col=0;
-        while (col<n)
-        {
-            // A
-            // cout<<col+1<<" ";
-
-            // B
-            // cout<<n-col<<" ";
-
+        while(col<row+1){
+            cout<<"*"<<" ";
             col++;
         }
         row++;
