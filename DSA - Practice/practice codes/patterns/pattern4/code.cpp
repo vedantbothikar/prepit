@@ -9,8 +9,14 @@ int main () {
     while(row<n){
         int col=0;
         while(col<row+1){
-            cout<<"*"<<" ";
+            // A
+            // cout<<"*"<<" ";
+            
+            // B
+            cout<<row+1<<" ";
+            
             col++;
+
         }
         row++;
         cout<<endl;
