@@ -4,7 +4,9 @@ TODO:
 
 1. solve for displaying negative numbers in their binary representation
 
-DISPLAY BINARY REPRESENTATION OF A DECIMAL NUMBER
+**DISPLAY BINARY REPRESENTATION OF A DECIMAL NUMBER**
+
+**DECIMAL TO BINARY**
 
 Example:
 input: 5
