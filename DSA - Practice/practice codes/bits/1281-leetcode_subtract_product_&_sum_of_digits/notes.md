@@ -20,3 +20,11 @@ Result = 24 - 9 = 15
 Whenever you want the last digit of a number
 DO-
 `n%10`
+
+Remember these 2 things:
+
+1. To check if last bit is set or not
+   `n&1`
+
+2. To get the last digit of a **decimal** number
+   `n%10`
