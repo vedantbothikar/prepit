@@ -1,6 +1,10 @@
 #Notes
 
-Convert decimal number to binary
+TODO:
+
+1. solve for displaying negative numbers in their binary representation
+
+DISPLAY BINARY REPRESENTATION OF A DECIMAL NUMBER
 
 Example:
 input: 5
