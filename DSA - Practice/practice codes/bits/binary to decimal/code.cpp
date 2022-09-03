@@ -15,7 +15,7 @@ int main () {
 
         // why not int digit = n%10
 
-        cout<<bit<<endl;
+        // cout<<bit<<endl;
 
         if(bit){
             sum += pow(2,  i);
