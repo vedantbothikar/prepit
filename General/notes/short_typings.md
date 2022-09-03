@@ -42,3 +42,12 @@ is -3
 and NOT 3
 
 ---
+
+**POINT 5:**
+
+bool is 1 **byte**
+float is 4 **bytes**
+
+remember it is **bytes** and not **bits**
+
+---
