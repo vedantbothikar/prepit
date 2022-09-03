@@ -27,15 +27,6 @@ string removeLeadingZeros(string str)
         bool neg = 0;
 
 
-        // check if in range
-        if ((n < numeric_limits<int>::lowest()) 
-            || (n > numeric_limits<int>::max())) 
-        {
-            cout<<"not in range";
-            return 0;
-            
-        } 
-
         // handle negative
         if(n<0){
             n = abs(n);

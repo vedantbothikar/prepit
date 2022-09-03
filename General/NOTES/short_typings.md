@@ -29,3 +29,16 @@ This line modifies str and reverses it
 _(NOTE: it doesn't return a new string, it modifies the existing string)_
 
 ---
+
+**POINT 4:**
+
+Remainder of a negative number is NEGATIVE only.
+
+eg.
+-123%10
+
+is -3
+
+and NOT 3
+
+---
