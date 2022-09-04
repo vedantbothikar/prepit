@@ -36,6 +36,29 @@ int main(){
 
 }
 
+BUT BUT BUT
+
+int fun(int arr[]){
+
+    // update 1st element of array
+
+}
+
+int main(){
+
+    int arr[5] = [1,2,3,4,5]
+
+    fun(arr)
+
+    print array
+    // when you print... the array is updated (it doesn't stay as earlier)
+
+}
+
+REASON:
+we are passing the address of the array
+this is why the array values are changed when we update it in the function
+
 ---
 
 **CONCEPT 2:**

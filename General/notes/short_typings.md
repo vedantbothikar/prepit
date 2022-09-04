@@ -51,3 +51,5 @@ float is 4 **bytes**
 remember it is **bytes** and not **bits**
 
 ---
+
+**POINT 6:**
