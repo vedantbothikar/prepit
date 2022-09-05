@@ -40,4 +40,12 @@ Leetcode: 2220 (Bit manipulation)
 
 **5th Sept 2022**
 
+Lecture 10 Babbar DSA - 40 minutes
 Lecture 11 Babbar DSA.
+
+Leetcode: 136 (Array+Bit manipulation)
+Code studio - [Find duplicate](https://www.codingninjas.com/codestudio/problems/duplicate-in-array_893397?source=youtube&campaign=love_babbar_codestudio1&utm_source=youtube&utm_medium=affiliate&utm_campaign=love_babbar_codestudio1&leftPanelTab=0)
+
+Leetcode: 442 (solved locally)
+
+---
