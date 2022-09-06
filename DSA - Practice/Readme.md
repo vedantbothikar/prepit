@@ -49,3 +49,17 @@ Code studio - [Find duplicate](https://www.codingninjas.com/codestudio/problems/
 Leetcode: 442 (solved locally)
 
 ---
+
+**6th Sept 2022**
+
+Lecture 10 Babbar DSA
+
+Leetcode: [1. Two Sum](https://leetcode.com/problems/two-sum/)
+
+Code studio:
+
+- [Intersection Of Two Sorted Arrays](https://www.codingninjas.com/codestudio/problems/intersection-of-2-arrays_1082149?source=youtube&campaign=love_babbar_codestudio1&utm_source=youtube&utm_medium=affiliate&utm_campaign=love_babbar_codestudio1&leftPanelTab=0)
+- [Pair Sum](https://www.codingninjas.com/codestudio/problems/pair-sum_697295?source=youtube&campaign=love_babbar_codestudio1&utm_source=youtube&utm_medium=affiliate&utm_campaign=love_babbar_codestudio1)
+
+Others:
+Sort 0s and 1s
