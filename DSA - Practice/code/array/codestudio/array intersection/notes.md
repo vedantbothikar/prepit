@@ -8,3 +8,9 @@ You are given two arrays 'A' and 'B' of size 'N' and 'M' respectively. Both thes
 Intersection of two arrays is an array that consists of all the common elements occurring in both arrays.
 
 ---
+
+`code2.cpp`
+
+**OPTIMIZED**
+
+T.C. => (max(n,m))

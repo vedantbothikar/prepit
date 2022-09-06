@@ -34,9 +34,10 @@ vector<int> findArrayIntersection(vector<int> &arr1, int n, vector<int> &arr2, i
             }
         }
     }
+}
 
-    int main()
-    {
+int main()
+{
 
-        return 0;
-    }
+    return 0;
+}
