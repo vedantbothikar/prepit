@@ -14,3 +14,5 @@ Intersection of two arrays is an array that consists of all the common elements 
 **OPTIMIZED**
 
 T.C. => (max(n,m))
+
+2 pointer approach
