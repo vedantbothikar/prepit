@@ -1,6 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+// 2*O(n)
+
 void printIntArray(int arr[], int size)
 {
     cout << "Printing Array" << endl;

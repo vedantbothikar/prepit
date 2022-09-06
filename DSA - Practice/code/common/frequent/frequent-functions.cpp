@@ -12,6 +12,14 @@ void printIntArray(int arr[], int size)
     cout << endl;
 }
 
+void getInputIntArray(int arr[], int n)
+{
+    for (int i = 0; i < n; i++)
+    {
+        cin >> arr[i];
+    }
+}
+
 int main()
 {
 
