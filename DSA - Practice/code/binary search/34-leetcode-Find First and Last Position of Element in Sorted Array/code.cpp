@@ -9,7 +9,6 @@ vector<int> searchRange(vector<int> &nums, int target)
     ans.push_back(INT_MIN);
 
     int start = 0, end = nums.size() - 1;
-
     int mid = start + (end - start) / 2;
 
     // for first occurrence
@@ -40,6 +39,7 @@ vector<int> searchRange(vector<int> &nums, int target)
         mid = start + (end - start) / 2;
     }
 
+    // initializations
     start = 0, end = nums.size() - 1;
     mid = start + (end - start) / 2;
 
@@ -81,11 +81,35 @@ vector<int> searchRange(vector<int> &nums, int target)
         ans[1] = -1;
     }
 
+    cout << "NUMBER OF OCCURRENCES:" << ans[1] - ans[0] + 1 << endl;
+
     return ans;
 }
 
 int main()
 {
+
+    vector<int> arr;
+    int n;
+    cin >> n;
+
+    for (int i = 0; i < n; i++)
+    {
+        cin >> arr[i];
+    }
+
+    int target;
+    cout << "Enter target to find: ";
+    cin >> target;
+
+    vector<int> res = searchRange(arr, target);
+
+    for (int i = 0; i < 2; i++)
+    {
+        cout << res[i] << " ";
+    }
+
+    cout << endl;
 
     return 0;
 }

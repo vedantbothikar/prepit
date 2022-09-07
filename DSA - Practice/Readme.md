@@ -68,4 +68,10 @@ Sort 0s and 1s
 
 **7th Sept 2022**
 
-Lec #12 Binary search concept
+Binary Search
+
+Lec #12, #13 Binary search concept
+
+Leetcode:
+34: first and last occurrence of an element in sorted array
+852: find peak element
