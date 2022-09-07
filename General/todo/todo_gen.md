@@ -2,6 +2,7 @@
 
 3. complement of base 10 integer - write down notes
 4. revise all arrays questions
+5. binary search peak element not working, check issue
 
 **QUESTIONS - HOMEWORK**
 
