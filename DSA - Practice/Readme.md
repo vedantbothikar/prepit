@@ -63,3 +63,9 @@ Code studio:
 
 Others:
 Sort 0s and 1s
+
+---
+
+**7th Sept 2022**
+
+Lec #12 Binary search concept

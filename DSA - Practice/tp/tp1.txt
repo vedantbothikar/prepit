@@ -1,0 +1,16 @@
+[5,7,7,8,8,10]
+
+
+
+if(we got element ){
+    // for first occurrence
+search in left
+if we got element => then return it
+else return current index
+
+// for last occurrence
+search on right
+if we got element => then return it
+else return current index 
+}
+

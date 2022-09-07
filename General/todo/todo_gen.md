@@ -1,8 +1,20 @@
 #TODO
 
-1. Make table of date wise what solved
-2. Patterns blog
 3. complement of base 10 integer - write down notes
-4. 231 - power of 2 -- check alternative efficient solutions & leetcode soln as well
-5. 191 - number of 1 bits -- optimize
-6. revise all arrays questions
+4. revise all arrays questions
+
+**QUESTIONS - HOMEWORK**
+
+1. https://www.codingninjas.com/codestudio/problems/triplets-with-given-sum_893028?source=youtube&campaign=LoveBabbar_Codestudiovideo1&utm_source=youtube&utm_medium=affiliate&utm_campaign=LoveBabbar_Codestudiovideo1
+
+2. https://www.codingninjas.com/codestudio/problems/sort-0-1-2_631055?source=youtube&campaign=LoveBabbar_Codestudiovideo1&utm_source=youtube&utm_medium=affiliate&utm_campaign=LoveBabbar_Codestudiovideo1
+
+3. https://leetcode.com/problems/unique-number-of-occurrences/
+
+4. https://leetcode.com/problems/find-all-duplicates-in-an-array/
+
+**#TODO LONG TERM**
+
+- 231 - power of 2 -- check alternative efficient solutions & leetcode soln as well
+- 191 - number of 1 bits -- optimize
+- Patterns blog

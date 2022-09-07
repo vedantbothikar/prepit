@@ -83,3 +83,15 @@ You can use `Designated Initializer` mentioned in the above gfg article
 
 _// initialises with garbage values_
 `int nums[100];`
+
+---
+
+**CONCEPT 3:**
+
+How is the T.C. for binary search O(logn) ??
+
+watch https://youtu.be/YJeoQBevNVo?t=2110
+
+we have to find k because that is the number of comparisons that will take place in the worst case
+
+---
