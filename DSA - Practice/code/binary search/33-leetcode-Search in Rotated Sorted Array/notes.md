@@ -16,3 +16,15 @@ if yes:
 search in second array
 if no:
 search in first array
+
+handle case when descending order
+
+if(pivotIndex == last){
+search in first array
+}
+if(pivotIndex == 0){
+search in second array
+}
+
+first array => 0 to pivotIndex-1
+second array => pivotIndex to size-1
