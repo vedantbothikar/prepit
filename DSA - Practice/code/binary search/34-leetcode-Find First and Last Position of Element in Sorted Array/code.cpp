@@ -92,10 +92,11 @@ int main()
     vector<int> arr;
     int n;
     cin >> n;
-
+    int inp;
     for (int i = 0; i < n; i++)
     {
-        cin >> arr[i];
+        cin >> inp;
+        arr.push_back(inp);
     }
 
     int target;
