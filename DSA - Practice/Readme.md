@@ -75,3 +75,17 @@ Lec #12, #13 Binary search concept
 Leetcode:
 34: first and last occurrence of an element in sorted array
 852: find peak element
+
+---
+
+**8th Sept 2022**
+
+Binary Search Lec #14 partial
+
+Leetcode:
+
+- [852. Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)
+- [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
+- [153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
+
+---
