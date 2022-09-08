@@ -4,6 +4,12 @@ using namespace std;
 int pivotIndex(vector<int> &nums)
 {
 
+    // handle case when there is only 1 element
+    if (nums.size() == 1)
+    {
+        return nums[0];
+    }
+
     int size = nums.size();
     int ans = -1;
     int last = size - 1;
