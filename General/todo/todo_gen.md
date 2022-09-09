@@ -14,8 +14,10 @@
 
 4. https://leetcode.com/problems/find-all-duplicates-in-an-array/
 
-**#TODO LONG TERM**
+**TODO LONG TERM**
 
 - 231 - power of 2 -- check alternative efficient solutions & leetcode soln as well
 - 191 - number of 1 bits -- optimize
 - Patterns blog
+- check how bits/stdc++.h works
+-
