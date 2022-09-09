@@ -1,18 +1,9 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-void printStack(list<int> &l)
-{
-    for (int i : l)
-    {
-        cout << i << " ";
-    }
-    cout << endl;
-}
-
 int main()
 {
-    cout << "----------LIST----------" << endl;
+    cout << "----------STACK----------" << endl;
 
     cout << "----------INITIALIZATION----------" << endl;
 
