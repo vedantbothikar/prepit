@@ -12,7 +12,7 @@
 
 ---
 
-**CONCEPT 1:**
+**CONCEPT 2:**
 
 **PASS BY VALUE**
 
@@ -61,7 +61,7 @@ this is why the array values are changed when we update it in the function
 
 ---
 
-**CONCEPT 2:**
+**CONCEPT 3:**
 
 Please read the following article:
 https://www.geeksforgeeks.org/different-ways-to-initialize-all-members-of-an-array-to-the-same-value-in-c/#:~:text=int%20num%5B5%5D%20%3D%20%7B,value%201%20at%20all%20index.&text=The%20array%20will%20be%20initialized,0%20in%20the%20initializer%20list.
@@ -86,7 +86,7 @@ _// initialises with garbage values_
 
 ---
 
-**CONCEPT 3:**
+**CONCEPT 4:**
 
 How is the T.C. for binary search O(logn) ??
 
@@ -95,3 +95,41 @@ watch https://youtu.be/YJeoQBevNVo?t=2110
 we have to find k because that is the number of comparisons that will take place in the worst case
 
 ---
+
+**CONCEPT 5:**
+
+https://www.geeksforgeeks.org/internal-details-of-stdsort-in-c/
+
+Best Case – O(N log N)
+Average Case- O(N log N)
+Worse Case- O(N log N)
+
+The algorithm used by sort() is IntroSort. Introsort being a hybrid sorting algorithm uses three sorting algorithm to minimize the running time, Quicksort, Heapsort and Insertion Sort. Simply putting, it is the best sorting algorithm around. It is a hybrid sorting algorithm, which means that it uses more than one sorting algorithms as a routine.
+
+Standard C library provides qsort() that can be used for sorting an array. As the name suggests, the function uses QuickSort algorithm to sort the given array
+
+It is better to use sort() instead of qsort() because:
+
+sort() does not use unsafe void pointers like qsort().
+qsort() makes large number of function calls for comparison function compared to sort().
+C++ code with sort() is relatively faster than code with qsort().
+
+---
+
+**CONCEPT 6:**
+
+---
+
+**CONCEPT 7:**
+
+---
+
+**CONCEPT 8:**
+
+---
+
+**CONCEPT 9:**
+
+---
+
+**CONCEPT 10:**

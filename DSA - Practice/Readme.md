@@ -89,3 +89,11 @@ Leetcode:
 - [153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
 
 ---
+
+**8th Sept 2022**
+
+Leetcode:
+
+Lec #14 completed
+
+- [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/)
