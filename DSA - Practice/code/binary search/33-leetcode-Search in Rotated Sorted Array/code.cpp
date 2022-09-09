@@ -8,7 +8,7 @@ int pivotIndex(vector<int> &nums)
     // handle case when there is only 1 element
     if (nums.size() == 1)
     {
-        return nums[0];
+        return 0;
     }
 
     int size = nums.size();
@@ -102,34 +102,6 @@ int binarysearch(vector<int> &nums, int start, int end, int target)
 // 3,5,1
 int search(vector<int> &nums, int target)
 {
-
-    // handle when there are 1 element(s) or 2 elements
-    if (nums.size() == 1)
-    {
-        if (nums[0] == target)
-        {
-            return 0;
-        }
-        else
-        {
-            return -1;
-        }
-    }
-    else if (nums.size() == 2)
-    {
-        if (nums[0] == target)
-        {
-            return 0;
-        }
-        else if (nums[1] == target)
-        {
-            return 1;
-        }
-        else
-        {
-            return -1;
-        }
-    }
 
     int pi = pivotIndex(nums);
 

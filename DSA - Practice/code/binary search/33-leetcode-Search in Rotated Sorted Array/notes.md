@@ -1,5 +1,11 @@
 #Notes
 
+---
+
+Explained in babbar dsa Lec #14
+
+---
+
 [7,9,1,2,3]
 
 find 2
