@@ -98,3 +98,14 @@ Lec #14 completed (binary search problems)
 Lec #19 completed (cpp stl)
 
 - [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/)
+
+---
+
+**10th Sept 2022**
+
+Lec #22 Strings half
+
+Leetcode:
+
+- [344. Reverse String](https://leetcode.com/problems/reverse-string/)
+- [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)

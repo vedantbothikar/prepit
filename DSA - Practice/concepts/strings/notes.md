@@ -22,6 +22,14 @@ this means that if you enter the name as `vedant bothikar`
 it will only take `vedant` as the input
 because then it stops
 
+To solve this issue: use `getline`
+
+```
+string s;
+getline(cin, s);
+cout << s << endl;
+```
+
 ---
 
 ```
@@ -35,3 +43,23 @@ isalnum(ch);
 tolower(ch);
 
 ```
+
+---
+
+To find the length of a character array
+
+```
+char arr[] = {'a', 'b', 'c', 'd'};
+
+cout<< strlen(arr);
+```
+
+---
+
+String compare:
+
+`strcmp(s1, s2);`
+
+**returns 0 when they are equal**
+
+---

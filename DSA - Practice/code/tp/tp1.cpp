@@ -37,21 +37,9 @@ void changeArr(int arr[])
 int main()
 {
 
-    char ch[5] = {'a', 'b'};
-
-    int size = sizeof(ch) / sizeof(char);
-
-    // printCharArr(ch, size);
-
-    int arr[5] = {1, 2};
-
-    int sizeint = sizeof(ch) / sizeof(char);
-
-    changeArr(arr);
-
-    printIntArr(arr, sizeint);
-
-    int a = 3;
+    string s;
+    getline(cin, s);
+    cout << s << endl;
 
     return 0;
 }

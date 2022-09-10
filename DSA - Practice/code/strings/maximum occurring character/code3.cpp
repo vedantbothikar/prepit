@@ -51,5 +51,8 @@ int main()
     cout << endl;
     cout << getMaxOccCharacter("AAAaagggg") << endl;
 
+    char arr[] = {'a', 'b', 'c', 'd'};
+    cout << "LENGTH OF CHAR ARR: " << strlen(arr) << endl;
+
     return 0;
 }
