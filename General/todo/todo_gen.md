@@ -20,4 +20,4 @@
 - 191 - number of 1 bits -- optimize
 - Patterns blog
 - check how bits/stdc++.h works
--
+- check the difference between character arrays and strings => [One of the Resources](https://stackoverflow.com/questions/40716515/do-stdstrings-end-in-0-when-initialized-with-a-string-literal)
