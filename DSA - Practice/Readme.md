@@ -90,10 +90,11 @@ Leetcode:
 
 ---
 
-**8th Sept 2022**
+**9th Sept 2022**
 
 Leetcode:
 
-Lec #14 completed
+Lec #14 completed (binary search problems)
+Lec #19 completed (cpp stl)
 
 - [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/)
