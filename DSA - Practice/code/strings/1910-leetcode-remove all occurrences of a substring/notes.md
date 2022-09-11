@@ -20,3 +20,6 @@ if (found!=std::string::npos)
 std::cout << "first 'needle' found at: " << found << '\n';
 
 ```
+
+for vectors npos might be `v.end()`
+(not sure, get it confirmed)
