@@ -63,3 +63,36 @@ String compare:
 **returns 0 when they are equal**
 
 ---
+
+string to integer
+`stoi('0')`
+
+---
+
+**Read:**
+https://www.geeksforgeeks.org/substring-in-cpp/
+
+string str = "vedant";
+
+// substring from index 2 and lenght 4
+str.substr(2,4);
+
+---
+
+Insert:
+
+https://www.geeksforgeeks.org/stdstringinsert-in-c/
+
+// Inserts "vedant" at 5th index of str
+`str.insert(5, "vedant");`
+
+---
+
+Replace:
+
+https://www.geeksforgeeks.org/stdstringreplace-stdstringreplace_if-c/
+
+// Replaces 7 characters from 0th index by s2
+`s1.replace(0, 7, s2);`
+
+---

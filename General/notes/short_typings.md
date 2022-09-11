@@ -53,3 +53,10 @@ remember it is **bytes** and not **bits**
 ---
 
 **POINT 6:**
+
+This will print the minimum value in the vector
+
+`cout<< *min_element(v.begin(),v.end())<<endl;`
+
+for max =>
+`*max_element(v.begin(), v.end())`
