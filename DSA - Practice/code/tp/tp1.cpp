@@ -37,9 +37,14 @@ void changeArr(int arr[])
 int main()
 {
 
-    string s;
-    getline(cin, s);
-    cout << s << endl;
+    int count = 12;
+    string str = to_string(count);
+
+    for (int i = 0; i < str.length(); i++)
+    {
+        cout << str[i] << " - ";
+    }
+    cout << endl;
 
     return 0;
 }
