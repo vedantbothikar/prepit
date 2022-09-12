@@ -1,18 +1,14 @@
-#TODO
+**TODO**
 
-3. complement of base 10 integer - write down notes
-4. revise all arrays questions
-5. binary search peak element not working, check issue
+1. complement of base 10 integer - write down notes
+2. check ascii values, where do they start for integers and characters
+3.
+
+---
 
 **QUESTIONS - HOMEWORK**
 
-1. https://www.codingninjas.com/codestudio/problems/triplets-with-given-sum_893028?source=youtube&campaign=LoveBabbar_Codestudiovideo1&utm_source=youtube&utm_medium=affiliate&utm_campaign=LoveBabbar_Codestudiovideo1
-
-2. https://www.codingninjas.com/codestudio/problems/sort-0-1-2_631055?source=youtube&campaign=LoveBabbar_Codestudiovideo1&utm_source=youtube&utm_medium=affiliate&utm_campaign=LoveBabbar_Codestudiovideo1
-
-3. https://leetcode.com/problems/unique-number-of-occurrences/
-
-4. https://leetcode.com/problems/find-all-duplicates-in-an-array/
+---
 
 **TODO LONG TERM**
 
@@ -22,6 +18,7 @@
 - check how bits/stdc++.h works
 
 - check the difference between character arrays and strings => [One of the Resources](https://stackoverflow.com/questions/40716515/do-stdstrings-end-in-0-when-initialized-with-a-string-literal) **CHECK MISC 1**
+- A day to revise everything solved and solve long term todos as well
 
 ---
 
