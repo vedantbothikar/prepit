@@ -143,11 +143,17 @@ nothing
 
 **14th Sept 2022**
 
-Lec #31 completed
+Lec #31, #32 completed
 
 Basic Question:
 
 - Factorial of n
 - print counting of numbers
+- sayDigits
+- count ways to climb nStairs (TLE- improvement after DP pending)
+
+Leetcode
+
+- [509 Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)
 
 ---
