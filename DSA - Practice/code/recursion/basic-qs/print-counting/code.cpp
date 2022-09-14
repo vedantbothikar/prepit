@@ -1,7 +1,24 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-void printCounting(int n)
+// head recursion
+// prints 0 1 2 3 4 5
+void printCountingHead(int n)
+{
+
+    if (n == -1)
+    {
+        return;
+    }
+
+    printCountingHead(n - 1);
+
+    cout << n << " ";
+}
+
+// tail recursion
+// prints 5 4 3 2 1 0
+void printCountingTail(int n)
 {
 
     if (n == -1)
@@ -11,7 +28,7 @@ void printCounting(int n)
 
     cout << n
          << " ";
-    return printCounting(n - 1);
+    return printCountingTail(n - 1);
 }
 
 int main()
@@ -21,9 +38,17 @@ int main()
     int n;
     cin >> n;
 
-    cout << "Counting: " << endl;
+    cout << "Counting: Tail recursion -> " << endl;
 
-    printCounting(n);
+    printCountingTail(n);
+
+    cout << endl;
+
+    cout << "Counting: Head recursion -> " << endl;
+
+    printCountingHead(n);
+
+    cout << endl;
 
     return 0;
 }
