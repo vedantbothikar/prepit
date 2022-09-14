@@ -2,7 +2,7 @@
 
 1. complement of base 10 integer - write down notes
 2. check ascii values, where do they start for integers and characters
-3.
+3. 9th spet 2022 dsa doubts read all
 
 ---
 
