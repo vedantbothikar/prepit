@@ -118,6 +118,7 @@ Leetcode:
 Lec #22 half
 
 Leetcode
+
 - [1047. Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)
 - [567. Permutation in String](https://leetcode.com/problems/permutation-in-string/)
 - [1910. Remove All Occurrences of a Substring](https://leetcode.com/problems/remove-all-occurrences-of-a-substring/)
@@ -128,7 +129,25 @@ Leetcode
 
 Lec #22 completed
 
- Leetcode
- - [443. String Compression](https://leetcode.com/problems/string-compression/)
- 
- ---
+Leetcode
+
+- [443. String Compression](https://leetcode.com/problems/string-compression/)
+
+---
+
+**13th Sept 2022**
+
+nothing
+
+---
+
+**14th Sept 2022**
+
+Lec #31 completed
+
+Basic Question:
+
+- Factorial of n
+- print counting of numbers
+
+---
