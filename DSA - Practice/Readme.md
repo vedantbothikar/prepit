@@ -157,3 +157,15 @@ Leetcode
 - [509 Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)
 
 ---
+
+**15th Sept 2022**
+
+Lec #34
+
+Codestudio:
+
+- [Check If Binary Representation of a Number is Palindrome](https://www.codingninjas.com/codestudio/problems/check-palindrome_920555?leftPanelTab=0&utm_source=youtube&utm_medium=affiliate&utm_campaign=love_babbar_13)
+
+Leetcode:
+
+- [344. Reverse String](https://leetcode.com/problems/reverse-string/) (_solved using recursion this time_)
