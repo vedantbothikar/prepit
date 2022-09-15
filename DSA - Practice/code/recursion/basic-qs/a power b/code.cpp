@@ -16,6 +16,29 @@ int apowerb(int a, int b, int ans)
     apowerb(a, b - 1, ans * a);
 }
 
+int apowerbOptimized(int a, int b, int ans)
+{
+
+    if (b == 0)
+    {
+        return 1;
+    }
+
+    // odd
+    if (b & 1 == 1)
+    {
+        int res = apowerbOptimized(a, (b - 1) / 2, ans);
+        ans = ans * a * res * res;
+    }
+    else
+    {
+        int res = apowerbOptimized(a, b / 2, ans);
+        ans = ans * res * res;
+    }
+
+    return ans;
+}
+
 int main()
 {
 
@@ -25,7 +48,7 @@ int main()
     cin >> a;
     cin >> b;
 
-    cout << "Answer: " << apowerb(a, b, 1) << endl;
+    cout << "Answer: " << apowerbOptimized(a, b, 1) << endl;
 
     return 0;
 }
