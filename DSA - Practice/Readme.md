@@ -173,3 +173,15 @@ Codestudio:
 Leetcode:
 
 - [344. Reverse String](https://leetcode.com/problems/reverse-string/) (_solved using recursion this time_)
+- [78. Subsets](https://leetcode.com/problems/subsets/)
+
+---
+
+**16th Sept 2022**
+
+Recursion Playlist - Aditya Verma
+_Video watched: 7_
+
+Leetcode:
+
+- [779. K-th Symbol in Grammar](https://leetcode.com/problems/k-th-symbol-in-grammar/)
