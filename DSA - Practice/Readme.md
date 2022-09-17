@@ -185,3 +185,11 @@ _Video watched: 7_
 Leetcode:
 
 - [779. K-th Symbol in Grammar](https://leetcode.com/problems/k-th-symbol-in-grammar/)
+
+---
+
+**17th Sept 2022**
+
+Problems:
+
+- Tower of Hanoi
