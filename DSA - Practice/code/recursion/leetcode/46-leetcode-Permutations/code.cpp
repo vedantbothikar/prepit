@@ -31,17 +31,13 @@ void solve(vector<int> nums, int index, vector<vector<int>> &ans)
     {
         // swap every next element with index element
 
-        cout << "i: " << i << " index: " << index << endl;
-
-        cout << "nums before swap: ";
-        printvec(nums);
-
         swap(nums[index], nums[i]);
 
-        cout << "nums after swap: ";
-        printvec(nums);
-
         solve(nums, index + 1, ans);
+
+        // backtrack
+        swap(nums[index], nums[i]);
+        // (to make sure that the variable is not a tampered one for the next iteration)
     }
 }
 

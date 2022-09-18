@@ -200,5 +200,6 @@ Problems:
 **18th Sept 2022**
 
 Lec 39 Babbar DSA
+Lec 40 Babbar DSA
 
 - [46-leetcode-permutations-of-a-string](https://leetcode.com/problems/permutations/)

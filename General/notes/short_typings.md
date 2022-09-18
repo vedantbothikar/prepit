@@ -60,3 +60,38 @@ This will print the minimum value in the vector
 
 for max =>
 `*max_element(v.begin(), v.end())`
+
+---
+
+**POINT 7:**
+
+to get the integer value of a character
+
+suppose
+
+char ch = '5';
+
+then
+int num = ch - '0';
+
+---
+
+**POINT 8:**
+
+char ch ='a'
+
+string str = ch
+
+will not work
+
+BUT
+
+char ch ='a'
+
+string str;
+
+str = ch
+
+will work
+
+---

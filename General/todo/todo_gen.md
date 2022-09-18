@@ -4,6 +4,7 @@
 2. check ascii values, where do they start for integers and characters
 3. 9th spet 2022 dsa doubts read all
 4. https://leetcode.com/problems/subsets/ Check bits solution (recursion solution already solved, now check bits)
+5. Leetcode: 17, 46 => check alternate solutions
 
 ---
 
