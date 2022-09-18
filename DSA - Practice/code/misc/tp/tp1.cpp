@@ -37,14 +37,13 @@ void changeArr(int arr[])
 int main()
 {
 
-    int count = 12;
-    string str = to_string(count);
+    char ch = 'a';
 
-    for (int i = 0; i < str.length(); i++)
-    {
-        cout << str[i] << " - ";
-    }
-    cout << endl;
+    string str = "hello";
+
+    string newstr = str + ch;
+
+    cout << newstr;
 
     return 0;
 }
