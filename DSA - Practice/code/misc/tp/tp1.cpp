@@ -37,13 +37,13 @@ void changeArr(int arr[])
 int main()
 {
 
-    char ch = 'a';
+    unordered_map<string, int> m;
 
-    string str = "hello";
+    cout << m["vedant"] << endl;
+    cout << m.at("vedant") << endl;
 
-    string newstr = str + ch;
-
-    cout << newstr;
+    cout << m.at("bothikar") << endl;
+    cout << m["bothikar"] << endl;
 
     return 0;
 }

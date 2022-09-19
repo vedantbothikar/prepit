@@ -95,3 +95,11 @@ str = ch
 will work
 
 ---
+
+TRICK QUESTION Here:
+
+Check it out
+
+https://www.notion.so/vedantbothikar/Vector-pass-by-address-value-f601d7ca879f40409a72fc4a75a53e24
+
+---

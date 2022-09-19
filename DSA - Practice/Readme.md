@@ -203,3 +203,13 @@ Lec 39 Babbar DSA
 Lec 40 Babbar DSA
 
 - [46-leetcode-permutations-of-a-string](https://leetcode.com/problems/permutations/)
+
+---
+
+**19th Sept 2022**
+
+Hashmaps Lec78
+
+Codestudio: [Maximum Frequency Number](https://www.codingninjas.com/codestudio/problems/maximum-frequency-number_920319?leftPanelTab=0&utm_source=youtube&utm_medium=affiliate&utm_campaign=Lovebabbar)
+
+---
