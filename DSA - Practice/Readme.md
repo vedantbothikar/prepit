@@ -213,3 +213,15 @@ Hashmaps Lec78
 Codestudio: [Maximum Frequency Number](https://www.codingninjas.com/codestudio/problems/maximum-frequency-number_920319?leftPanelTab=0&utm_source=youtube&utm_medium=affiliate&utm_campaign=Lovebabbar)
 
 ---
+
+**20th Sept 2022**
+
+Lec 54 Stacks
+
+Codestudio:
+
+- [Two Stacks](https://www.codingninjas.com/codestudio/problems/two-stacks_983634?leftPanelTab=0)
+
+_(Hashmap Question)_
+
+- [205. Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)
