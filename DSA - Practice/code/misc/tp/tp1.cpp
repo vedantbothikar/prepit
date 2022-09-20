@@ -37,13 +37,26 @@ void changeArr(int arr[])
 int main()
 {
 
-    unordered_map<string, int> m;
+    // unordered_map<string, int> m;
 
-    cout << m["vedant"] << endl;
-    cout << m.at("vedant") << endl;
+    // cout << m["vedant"] << endl;
+    // cout << m.at("vedant") << endl;
 
-    cout << m.at("bothikar") << endl;
-    cout << m["bothikar"] << endl;
+    // cout << m.at("bothikar") << endl;
+    // cout << m["bothikar"] << endl;
+
+    unordered_map<char, char> m;
+    string s = "vedant";
+
+    cout << "here it is:" << m[s[0]] << "hello" << endl;
+    if (m[s[0]])
+    {
+        cout << "yes" << endl;
+    }
+    else
+    {
+        cout << " no" << endl;
+    }
 
     return 0;
 }
