@@ -241,3 +241,9 @@ _(Hashmap Question)_
 ---
 
 **24th Sept 2022**
+
+- revised patterns qs
+
+---
+
+**25th Sept 2022**

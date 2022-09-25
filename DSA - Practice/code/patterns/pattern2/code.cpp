@@ -1,20 +1,23 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 
-int main () {
+int main()
+{
     int n;
-    cin>>n;
+    cin >> n;
 
-    int row=0;
+    int row = 0;
     int count = 1;
     char letter = 'A';
 
-    while(row<n){
-        int col=0;
-        while(col<row+1){
+    while (row < n)
+    {
+        int col = 0;
+        while (col < row + 1)
+        {
             // A
             // cout<<"*"<<" ";
-            
+
             // B
             // cout<<row+1<<" ";
 
@@ -40,22 +43,18 @@ int main () {
             // cout<<(char)(letter+n-1-col)<<" ";
 
             // J
-            cout<<(char)(letter +n-1 -row +col)<< " ";
-            
+            cout << (char)(letter + n - 1 - row + col) << " ";
+
             count++;
             col++;
-
         }
 
         row++;
 
-        
         // letter = (char) ('A' + ((letter - 'A' + 1) % 26) );
 
-
-        cout<<endl;
+        cout << endl;
     }
-
 
     return 0;
 }
