@@ -1,11 +1,19 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int main()
-{
+/*
 
-    int n;
-    cin >> n;
+0010100010...101
+
+whenever I get 1
+then I will do
+
+sum = sum + pow(2,i)
+
+*/
+
+int bintodec(int n)
+{
 
     int sum = 0;
     int i = 0;
@@ -28,7 +36,15 @@ int main()
         n = n / 10;
     }
 
-    cout << sum;
+    return sum;
+}
+
+int main()
+{
+
+    int n;
+    cin >> n;
+    cout << bintodec(n);
 
     return 0;
 }

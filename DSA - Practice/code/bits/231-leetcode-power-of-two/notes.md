@@ -40,7 +40,7 @@ we are checking if the number is any one of the following one by one
 2^29
 2^30
 
-_(int range is tille 2^31-1 so we are checking only till 2^30)_
+_(int range is till 2^31-1 so we are checking only till 2^30)_
 
 if the answer matches
 then return true

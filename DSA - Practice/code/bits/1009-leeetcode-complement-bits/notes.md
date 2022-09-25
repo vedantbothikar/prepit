@@ -1,9 +1,41 @@
 #Notes
 
+https://leetcode.com/problems/number-complement/
+
+**Complement of Base 10 Integer**
+
+The complement of an integer is the integer you get when you flip all the 0's to 1's and all the 1's to 0's in its binary representation.
+
+For example, The integer 5 is "101" in binary and its complement is "010" which is the integer 2.
+
 ---
 
 _here relevant bits mean that ones which we require
 it doesn't have any technical definition_
+
+---
+
+**`code.cpp`**
+
+- Here we are traversing the binary form
+  of given integer, and while traversing
+  if we get `1`
+  then append 0 to str
+  if we get `0`
+  then append 1 to str
+  (keep repeating this only until n==0)
+
+in this way we get the complement of the number
+but this is currently in reverse form
+
+- reverse the string
+
+- now this string is like eg: "010"
+- we need to convert this to decimal form
+
+- use bin to dec logic
+
+---
 
 **`code2.cpp`**
 
@@ -81,5 +113,11 @@ while(n!=0){
     n = n>>1;
 
 }
+
+---
+
+**Alternate approach**
+
+https://leetcode.com/problems/number-complement/discuss/2607040/C%2B%2B-oror-100-Faster-oror-Using-only-WHILE-loop-oror-Easy-to-understand
 
 ---

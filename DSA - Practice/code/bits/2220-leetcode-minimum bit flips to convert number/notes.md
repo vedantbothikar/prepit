@@ -13,6 +13,8 @@ Given two integers start and goal, return the minimum number of bit flips to con
 
 ---
 
+**Solution**
+
 Essentially, we need to check how many bits in both the numbers are NOT same
 
 So, we can also use XOR operator (`code.cpp`)

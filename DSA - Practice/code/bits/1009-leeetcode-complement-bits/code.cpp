@@ -1,6 +1,32 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+/*
+
+- Here we are traversing the binary form 
+of given integer, and while traversing
+if we get `1`
+then append 0 to str
+if we get `0`
+then append 1 to str
+(keep repeating this only until n==0)
+
+
+
+in this way we get the complement of the number
+but this is currently in reverse form
+
+- reverse the string
+
+- now this string is like eg: "010"
+- we need to convert this to decimal form
+
+- use bin to dec logic 
+
+
+
+*/
+
 int bintodec(string str)
 {
     //for every bit
@@ -12,6 +38,7 @@ int bintodec(string str)
     while (str.size())
     {
 
+        // getting the last bit in integer form
         char last = str.back();
         string s(1, last);
         int bit = stoi(s);
