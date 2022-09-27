@@ -1,6 +1,9 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+// EXTRA SPACE
+// S- O(N)
+
 void printStack(stack<int> s)
 {
     cout << "Printing Stack: " << endl;
