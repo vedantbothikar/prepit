@@ -261,3 +261,10 @@ _(Hashmap Question)_
 **28th Sept 2022**
 
 - Reverse a string using stack
+- [Delete middle element of a stack](https://bit.ly/3ovTIu2)
+- [Check valid parentheses](https://leetcode.com/problems/valid-parentheses/submissions/)
+- [InsertAtBottom in Stack](https://bit.ly/34qqmGL)
+- [Reverse a Stack using recursion](https://bit.ly/3HCBnD4)
+- [Sort a stack](https://bit.ly/3snpr1B)
+- [Redundant Brackets](https://bit.ly/3srTkOv)
+- [Minimum cost to make string valid](https://bit.ly/3GAYRr5)
