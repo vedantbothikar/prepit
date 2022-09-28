@@ -1,7 +1,9 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-// USING EXTRA SPACE
+// RECURISVE
+
+// NO EXTRA SPACE
 
 // method 2:
 // we need to reduce space used

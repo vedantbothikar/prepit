@@ -263,3 +263,5 @@ _(Hashmap Question)_
 - Reverse a string using stack
 - [Delete middle element of a stack](https://bit.ly/3ovTIu2)
 - [Check valid parentheses](https://leetcode.com/problems/valid-parentheses/submissions/)
+- [InsertAtBottom in Stack](https://bit.ly/34qqmGL)
+- [Reverse a Stack using recursion](https://bit.ly/3HCBnD4)
