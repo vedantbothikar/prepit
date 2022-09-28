@@ -261,3 +261,5 @@ _(Hashmap Question)_
 **28th Sept 2022**
 
 - Reverse a string using stack
+- [Delete middle element of a stack](https://bit.ly/3ovTIu2)
+- [Check valid parentheses](https://leetcode.com/problems/valid-parentheses/submissions/)
