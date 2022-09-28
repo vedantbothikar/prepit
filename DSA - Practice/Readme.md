@@ -267,4 +267,4 @@ _(Hashmap Question)_
 - [Reverse a Stack using recursion](https://bit.ly/3HCBnD4)
 - [Sort a stack](https://bit.ly/3snpr1B)
 - [Redundant Brackets](https://bit.ly/3srTkOv)
-- []()
+- [Minimum cost to make string valid](https://bit.ly/3GAYRr5)
