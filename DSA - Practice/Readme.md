@@ -268,3 +268,7 @@ _(Hashmap Question)_
 - [Sort a stack](https://bit.ly/3snpr1B)
 - [Redundant Brackets](https://bit.ly/3srTkOv)
 - [Minimum cost to make string valid](https://bit.ly/3GAYRr5)
+
+---
+
+- [Next smaller element](https://bit.ly/34GjYL4)
