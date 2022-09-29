@@ -272,3 +272,4 @@ _(Hashmap Question)_
 ---
 
 - [Next smaller element](https://bit.ly/34GjYL4)
+- [84. Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)
