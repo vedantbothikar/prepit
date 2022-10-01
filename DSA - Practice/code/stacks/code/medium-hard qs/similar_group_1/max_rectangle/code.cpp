@@ -66,8 +66,7 @@ int largestRectangleArea(int *heights, int n)
     }
     return area;
 }
-
-int maxArea(int M[MAX][MAX], int n, int m)
+int maxArea(int M[100][100], int n, int m)
 {
     // Your code here
 
