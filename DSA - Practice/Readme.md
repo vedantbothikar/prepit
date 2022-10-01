@@ -271,4 +271,11 @@ _(Hashmap Question)_
 
 ---
 
+**29th Sept 2022**
+
 - [Next smaller element](https://bit.ly/34GjYL4)
+- [84. Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)
+
+---
+
+**30th Sept 2022**
