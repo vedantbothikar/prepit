@@ -279,3 +279,14 @@ _(Hashmap Question)_
 ---
 
 **30th Sept 2022**
+
+---
+
+**1st Sept 2022**
+
+Lec 57 DSA Babbar completed
+
+- [Celebrity Problem](https://practice.geeksforgeeks.org/problems/the-celebrity-problem/1)
+- [max rectangle](https://practice.geeksforgeeks.org/problems/max-rectangle/1)
+
+---
