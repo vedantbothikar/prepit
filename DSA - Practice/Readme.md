@@ -290,3 +290,5 @@ Lec 57 DSA Babbar completed
 - [max rectangle](https://practice.geeksforgeeks.org/problems/max-rectangle/1)
 
 ---
+
+**2nd Sept 2022**
