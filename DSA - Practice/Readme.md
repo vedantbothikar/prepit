@@ -292,3 +292,16 @@ Lec 57 DSA Babbar completed
 ---
 
 **2nd Sept 2022**
+
+**5th March 2023**
+
+- Tree Video Babbar [Lec 62](https://youtu.be/5NiXlPrLslg)
+- Traversals
+  Inorder
+  Preorder
+  Postorder
+  Level Order
+- Binary Tree Implementation
+  Normal Implementation
+  Implementing from Level Order Input
+- Codestudio: [Count number of Lead Nodes](https://www.codingninjas.com/codestudio/problems/count-leaf-nodes_893055?source=youtube&campaign=LoveBabbar_Codestudio&utm_source=youtube&utm_medium=affiliate&utm_campaign=LoveBabbar_Codestudio)
