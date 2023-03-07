@@ -22,6 +22,11 @@ private:
     void levelOrderTraversal(struct Node *root, int &count)
     {
 
+        if (root == NULL)
+        {
+            return;
+        }
+
         queue<Node *> q;
         q.push(root);
         q.push(NULL);

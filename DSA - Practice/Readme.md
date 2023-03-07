@@ -305,3 +305,13 @@ Lec 57 DSA Babbar completed
   Normal Implementation
   Implementing from Level Order Input
 - Codestudio: [Count number of Lead Nodes](https://www.codingninjas.com/codestudio/problems/count-leaf-nodes_893055?source=youtube&campaign=LoveBabbar_Codestudio&utm_source=youtube&utm_medium=affiliate&utm_campaign=LoveBabbar_Codestudio)
+
+**6th March 2023**
+
+- Find height of a binary tree
+  - level order traversal
+  - recursion
+
+**7th March 2023**
+
+- Diameter of a tree
