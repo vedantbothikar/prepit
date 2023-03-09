@@ -321,3 +321,7 @@ Lec 57 DSA Babbar completed
 
 - Check if it is a balanced tree
 - Check if identical trees
+
+**10th March 2023**
+
+- check if sum tree or not
