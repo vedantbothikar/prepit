@@ -1,6 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+// THIS T.C. is O(N^2)
+
 int heightOfTree(Node *root)
 {
 

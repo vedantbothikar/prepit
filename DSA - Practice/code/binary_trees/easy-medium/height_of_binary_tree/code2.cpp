@@ -19,6 +19,11 @@ the maximum height is calculated by the max height of the
 left subtree of root and right subtree of root +1 (we are considering root as well in the height... soo)
 
 checkout notes
+\/
+
+
+so in the code we are finding the height of each and every node
+and using them to calculate the height of the whole tree
 
 */
 
