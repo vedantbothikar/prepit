@@ -314,4 +314,10 @@ Lec 57 DSA Babbar completed
 
 **7th March 2023**
 
-- Diameter of a tree
+- Diameter of a tree code.cpp
+  - efficient approach code2.cpp -- **8th March 2023**
+
+**9th March 2023**
+
+- Check if it is a balanced tree
+- Check if identical trees
