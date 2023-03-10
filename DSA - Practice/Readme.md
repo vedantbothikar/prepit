@@ -325,3 +325,11 @@ Lec 57 DSA Babbar completed
 **10th March 2023**
 
 - check if sum tree or not
+- SS: inorder
+- SS: preorder
+- SS: postorder
+- SS: level order
+- SS: height of tree
+- SS: diameter of tree
+- SS: balanced or not
+- SS: identical trees or not
