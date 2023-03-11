@@ -333,3 +333,12 @@ Lec 57 DSA Babbar completed
 - SS: diameter of tree
 - SS: balanced or not
 - SS: identical trees or not
+
+**11th March 2023**
+
+- SS: Left view
+  - Using level order
+  - Using DFS
+- SS: Right view
+- SS: Inorder, Preorder & Postorder - All in single traversal (recursive)
+- Leetcode: 404. Sum of Left Leaves
