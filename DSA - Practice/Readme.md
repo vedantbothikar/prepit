@@ -282,7 +282,7 @@ _(Hashmap Question)_
 
 ---
 
-**1st Sept 2022**
+**1st Oct 2022**
 
 Lec 57 DSA Babbar completed
 
@@ -291,7 +291,7 @@ Lec 57 DSA Babbar completed
 
 ---
 
-**2nd Sept 2022**
+**2nd Oct 2022**
 
 **5th March 2023**
 
