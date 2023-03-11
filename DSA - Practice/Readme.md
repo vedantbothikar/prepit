@@ -342,3 +342,7 @@ Lec 57 DSA Babbar completed
 - SS: Right view
 - SS: Inorder, Preorder & Postorder - All in single traversal (recursive)
 - Leetcode: 404. Sum of Left Leaves
+
+**12th March 2023**
+
+- SS: Zig zag traversal
