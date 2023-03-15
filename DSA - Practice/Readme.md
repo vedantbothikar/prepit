@@ -346,6 +346,7 @@ Lec 57 DSA Babbar completed
 **12th March 2023**
 
 - SS: Zig zag traversal
+  - gfg, codestudio, leetcode
 
 **14th March 2023**
 
