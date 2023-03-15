@@ -346,3 +346,7 @@ Lec 57 DSA Babbar completed
 **12th March 2023**
 
 - SS: Zig zag traversal
+
+**14th March 2023**
+
+- SS: Boundary Traversal
