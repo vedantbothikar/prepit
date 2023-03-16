@@ -1,3 +1,10 @@
+
+
+## Important Links
+
+- [DSA Important Points Google Doc](https://docs.google.com/document/d/1Q1CeZ-ls3wSTIwLHFGQaswTTaGe855Gfo_vaJnyhj4I/edit?usp=sharing)
+
+
 ## Progress
 
 ---
