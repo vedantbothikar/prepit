@@ -1,9 +1,6 @@
-
-
 ## Important Links
 
 - [DSA Important Points Google Doc](https://docs.google.com/document/d/1Q1CeZ-ls3wSTIwLHFGQaswTTaGe855Gfo_vaJnyhj4I/edit?usp=sharing)
-
 
 ## Progress
 
@@ -358,3 +355,11 @@ Lec 57 DSA Babbar completed
 **14th March 2023**
 
 - SS: Boundary Traversal
+
+**16th March 2023**
+
+- SS: Vertical Order Traversal
+
+**17th March 2023**
+
+- SS: Top View of Binary Tree
