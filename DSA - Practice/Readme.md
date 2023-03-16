@@ -358,3 +358,7 @@ Lec 57 DSA Babbar completed
 **14th March 2023**
 
 - SS: Boundary Traversal
+
+**16th March 2023**
+
+- SS: Vertical Order Traversal
