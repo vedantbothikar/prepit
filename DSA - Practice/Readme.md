@@ -363,3 +363,5 @@ Lec 57 DSA Babbar completed
 **17th March 2023**
 
 - SS: Top View of Binary Tree
+- SS: Bottom view of Binary Tree
+- Leetcode 513: Find Bottom Left Tree Value(https://leetcode.com/problems/find-bottom-left-tree-value/)
