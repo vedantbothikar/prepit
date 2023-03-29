@@ -369,3 +369,14 @@ Lec 57 DSA Babbar completed
 **18th March 2023**
 
 - 987. Leetcode Vertical Order Traversal of a Binary Tree
+
+**20th March 2023**
+
+- 101. Symmetric Tree Leetcode
+
+**29th March 2023**
+
+- Lec 34 Babbar
+  - reverse string
+  - check palindrome or not of a binary representation of integer
+  - a power b using recursion
