@@ -380,3 +380,7 @@ Lec 57 DSA Babbar completed
   - reverse string
   - check palindrome or not of a binary representation of integer
   - a power b using recursion
+
+**30th March 2023**
+
+- Subsets solved again (recursion)
