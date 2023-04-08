@@ -384,3 +384,7 @@ Lec 57 DSA Babbar completed
 **30th March 2023**
 
 - Subsets solved again (recursion)
+
+**8th April 2023**
+
+- Subset sum
