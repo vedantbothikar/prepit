@@ -388,3 +388,20 @@ Lec 57 DSA Babbar completed
 **8th April 2023**
 
 - Subset sum
+
+**9th April 2023**
+
+- Subsequences solved again (recursion)
+- permutations of a string solved again recursion
+- phone keypad problem solved again recursion
+
+**15th April 2023**
+
+- TREES REVISION
+- Maximum Path Sum [Trees](https://www.codingninjas.com/codestudio/problems/binary-search_972?leftPanelTab=0&utm_source=youtube&utm_medium=affiliate&utm_campaign=love_babbar_11)
+- Height of Tree SOLVED AGAIN
+- zig zag traversal SOLVED AGAIN
+- Maximum path sum EASY NEW QUESTION
+- convert binary tree into mirror tree EASY NEW QUESTION
+- Averages Of Levels In Binary Tree EASY NEW QUESTION
+- Largest sub-tree sum EASY NEW QUESTION
