@@ -405,3 +405,7 @@ Lec 57 DSA Babbar completed
 - convert binary tree into mirror tree EASY NEW QUESTION
 - Averages Of Levels In Binary Tree EASY NEW QUESTION
 - Largest sub-tree sum EASY NEW QUESTION
+
+**19th April 2023**
+
+- Leetcode: 1372. Longest ZigZag Path in a Binary Tree
