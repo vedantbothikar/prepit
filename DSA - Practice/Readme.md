@@ -409,3 +409,12 @@ Lec 57 DSA Babbar completed
 **19th April 2023**
 
 - Leetcode: 1372. Longest ZigZag Path in a Binary Tree
+
+**30th April 2023**
+
+- [Maximum Frequency Number](https://www.codingninjas.com/codestudio/problems/maximum-frequency-number_920319?topList=21-days-beginner-coding-challenge) EASY
+
+**1st May 2023**
+
+- [Create Sequence](https://www.codingninjas.com/codestudio/problems/easy_7544624?topList=21-days-beginner-coding-challenge)
+- [Unique Subsets](https://leetcode.com/problems/subsets-ii/)
