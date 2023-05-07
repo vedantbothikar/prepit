@@ -418,3 +418,16 @@ Lec 57 DSA Babbar completed
 
 - [Create Sequence](https://www.codingninjas.com/codestudio/problems/easy_7544624?topList=21-days-beginner-coding-challenge)
 - [Unique Subsets](https://leetcode.com/problems/subsets-ii/)
+
+**7th May 2023**
+
+These questions have been solved from JPMC Question list https://www.codingninjas.com/codestudio/problem-lists/jp-morgan-interview-questions
+
+Codestudio
+
+- Divide Linkedlist in two
+- Find student
+- Lead Nodes on same level?
+- Move last element
+- Palindromic Rearrangement
+- Reset in Range
