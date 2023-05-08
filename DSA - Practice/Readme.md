@@ -431,3 +431,10 @@ Codestudio
 - Move last element
 - Palindromic Rearrangement
 - Reset in Range
+
+**8th May 2023**
+
+Mastercard List - https://www.codingninjas.com/codestudio/interview-bundle/mastercard
+
+- Square Root (Integral) - Binary Search
+
