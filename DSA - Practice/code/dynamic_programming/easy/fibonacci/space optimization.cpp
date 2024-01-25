@@ -8,14 +8,16 @@ BEST SOLUTION
 TC O(N) - going through all numbers only once
 SC O(1)  - we are only using variables
 
-
-
 */
+
 class Solution
 {
 public:
     int fib(int n)
     {
+
+        if (n == 0 or n == 1)
+            return n;
 
         int prev1 = 0, prev2 = 1;
         int curr = 0;
