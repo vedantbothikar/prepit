@@ -8,40 +8,29 @@ BEST SOLUTION
 TC O(N) - going through all numbers only once
 SC O(1)  - we are only using variables
 
-
-
 */
 
-int main()
+class Solution
 {
-    /*
-     *  Write your code here.
-     *  Read input as specified in the question.
-     *  Print output as specified in the question.
-     */
-
-    // space optimization using variables
-    // use variables prev1 and prev2
-
-    int n;
-    cin >> n;
-
-    int prev1 = 0, prev2 = 1;
-
-    vector<int> dp(n + 1);
-    dp[0] = prev1;
-    dp[1] = prev2;
-
-    for (int i = 2; i <= n; i++)
+public:
+    int fib(int n)
     {
-        dp[i] = prev1 + prev2;
 
-        // swap
-        prev1 = prev2;
-        prev2 = dp[i];
+        if (n == 0 or n == 1)
+            return n;
+
+        int prev1 = 0, prev2 = 1;
+        int curr = 0;
+
+        for (int i = 2; i <= n; i++)
+        {
+            curr = prev1 + prev2;
+
+            // swap
+            prev1 = prev2;
+            prev2 = curr;
+        }
+
+        return curr;
     }
-
-    cout << dp[n];
-
-    return 0;
-}
+};
