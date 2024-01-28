@@ -1,54 +1,77 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-// NOTE: you can also declare dp size based on the N and target given in the question
-int dp[16][10001];
-
-int solve(int ind, int x, vector<int> &num)
+class Solution
 {
-    // base cases
-    if (x == 0)
-        return 0;
+public:
+    // DYNAMIC PROGRAMMING
+    /*
 
-    if (ind == num.size())
-        return 1e9;
+    There are can be 2 cases when the coin is considered or not considered
 
-    if (x < 0)
-        return 1e9;
+    We will have a 2d dp array in which we will store the answer(minimum number of coins) for the specified index
 
-    // check in dp
-    if (dp[ind][x] != -1)
-        return dp[ind][x];
+        What is specified index?
+    -> This is the index at which we are currently traversing... so it will kind of like tell us the solution to the subproblem
 
-    // There are 2 possibilities: whether to take the current element or not to take
 
-    // When you take, dont increment the index, because as per question we can take the element unlimited number of times... so we will stop when the target becomes less than 0
-    int take = 1 + solve(ind, x - num[ind], num);
+    */
 
-    // We will increase the index here because we are not considering this element here. So we will end up when the index is out of defined range in base case (if we keep ignoring all elements)
-    int nottake = solve(ind + 1, x, num);
-
-    // store the answer (minimum number of coins required to make this sum)
-    return dp[ind][x] = min(take, nottake);
-}
-
-int minimumElements(vector<int> &num, int x)
-{
-    // Write your code here.
-
-    for (int i = 0; i <= num.size(); i++)
+    int solve(vector<int> &coins, int target, int index, vector<vector<int>> &dp)
     {
-        for (int j = 0; j <= x; j++)
+
+        // base case
+        if (target == 0)
         {
-            dp[i][j] = -1;
+            return 0;
         }
+
+        if (index == coins.size())
+        { // we are returning 1e9 and not INT_MAX because in include statement we are adding 1 to it.. so it will give integer overflow error when we add
+            return 1e9;
+        }
+
+        if (target < 0)
+        {
+            return 1e9;
+        }
+
+        // check dp
+        if (dp[index][target] != -1)
+        {
+            return dp[index][target];
+        }
+
+        // There are 2 possibilities: whether to take the current element or not to take
+
+        // CASE 1: When the coin is considered
+        // dont increment index: because we can consider the element once again (read question, we can include the same coin unlimited number of times)
+        // if we keep taking these coins, then target will keep reducing and the base case will hit AND here also reduce the target by coins[i]
+        // we should also add 1 here because we are considering this coin - so add 1
+        int include = 1 + solve(coins, target - coins[index], index, dp);
+
+        // CASE 2: Dont take the coin
+        // Here we increment the index so that we can go to next coin
+        // if we keep exlcuding the coins, then base case of index greater than size will reach
+        int exclude = solve(coins, target, index + 1, dp);
+
+        dp[index][target] = min(include, exclude);
+        return dp[index][target];
     }
 
-    int ans = solve(0, x, num);
-    if (ans == 1e9)
-        ans = -1;
-    return ans;
-}
+    int coinChange(vector<int> &coins, int target)
+    {
+
+        // initialize a 2d vector of coinSize X target and initialize it to -1
+        vector<vector<int>> dp(coins.size() + 1, vector<int>(target + 1, -1));
+
+        int ans = solve(coins, target, 0, dp);
+
+        if (ans == 1e9)
+            return -1;
+        return ans;
+    }
+};
 
 int main()
 {
