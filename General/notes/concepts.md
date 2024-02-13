@@ -117,6 +117,12 @@ C++ code with sort() is relatively faster than code with qsort().
 ---
 
 **CONCEPT 6:**
+SUBSETS vs SUBSEQUENCES
+
+https://www.scaler.com/topics/difference-between-subarray-subset-and-subsequence/
+
+- subsets do not consider order of elements
+- subsequences CONSIDER order of elements
 
 ---
 
