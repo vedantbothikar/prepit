@@ -16,47 +16,17 @@ SOlution: https://www.youtube.com/watch?v=AE39gJYuRog&embeds_referring_euri=http
 
 */
 
-int maxPointsForDay0ConsideringLastActivity(vector<vector<int>> &points, vector<vector<int>> &dp, int lastActivity)
-{
-
-    int maxPoints = INT_MIN;
-    int currentDay = 0; // will always be 0
-    for (int activity = 0; activity < 3; activity++)
-    {
-
-        if (activity != lastActivity)
-        {
-
-            int currentPoints = points[currentDay][activity];
-            maxPoints = max(maxPoints, currentPoints);
-        }
-    }
-
-    return maxPoints;
-}
-
 // n indicates the day
 
 int solveRecMem(int n, vector<vector<int>> &points, vector<vector<int>> &dp, int lastActivity)
 {
 
     // base case
-    if (n == 0)
+    if (n < 0)
     {
         // return maxPointsForDay0ConsideringLastActivity(points, dp, lastActivity);
 
-        int maxi = 0;
-
-        for (int i = 0; i < 3; i++)
-        {
-
-            if (i != lastActivity)
-            {
-                maxi = max(maxi, points[0][i]);
-            }
-        }
-
-        return dp[n][lastActivity] = maxi;
+        return 0;
     }
 
     // check in dp
@@ -91,10 +61,4 @@ int ninjaTraining(int n, vector<vector<int>> &points)
 
     // pass n-1 instead of n because we are starting training from Day 1 and not Day 0
     return solveRecMem(n - 1, points, dp, 3);
-}
-
-int main()
-{
-
-    return 0;
 }
