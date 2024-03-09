@@ -10,58 +10,40 @@ This will explain how to work with questions on subsequences
 
 */
 
+bool solveRecMem(int index, int target, vector<int>& arr, vector<vector<int>>& dp){
 
-
-bool solve(int n, int target, int index, vector<int> &arr, vector<vector<int>> &dp)
-{
-
-    // base cases
-    if (index < 0)
-    {
-        return false;
-    }
-
-    if (target == 0)
-    {
+    // basecases
+    if(target == 0){
         return true;
     }
 
-    if (index == 0)
-    {
-        return arr[index] == target;
+    if(index < 0){
+        return false;
+    }
+
+    if(target < 0){
+        return false;
     }
 
     // check in dp
-    if (dp[index][target] != -1)
-    {
+    if(dp[index][target] != -1){
         return dp[index][target];
     }
 
-    bool include = false;
-    // include
-    if (arr[index] <= target)
-    {
-        include = solve(n, target - arr[index], index - 1, arr, dp);
-    }
 
-    // exclude
-    bool exclude = solve(n, target, index - 1, arr, dp);
+    // check all possibilities
+    bool include = solveRecMem(index-1, target-arr[index], arr, dp);
+    bool exclude = solveRecMem(index-1, target, arr, dp);
 
-    // populate dp
-    return dp[index][target] = include || exclude;
+    // populate in dp
+    return dp[index][target] = include or exclude;
 }
 
-bool subsetSumToK(int n, int target, vector<int> &arr)
-{
+
+
+bool subsetSumToK(int n, int target, vector<int> &arr) {
     // Write your code here.
 
-    vector<vector<int>> dp(n + 1, vector<int>(target + 1, -1)); // Fix dimension initialization
-
-    return solve(n, target, n - 1, arr, dp);
-}
-
-int main()
-{
-
-    return 0;
+    vector<vector<int>> dp(n+1, vector<int>(target+1, -1));
+    return solveRecMem(n-1, target, arr, dp);
 }
