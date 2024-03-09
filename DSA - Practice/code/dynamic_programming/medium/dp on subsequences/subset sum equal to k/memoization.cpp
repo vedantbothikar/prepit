@@ -1,7 +1,16 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-#include <bits/stdc++.h>
+
+/*
+
+Watch this video: https://youtu.be/fWX9xDmIzRI?si=45HqS_psT-kJArzl
+This will explain how to work with questions on subsequences
+
+
+*/
+
+
 
 bool solve(int n, int target, int index, vector<int> &arr, vector<vector<int>> &dp)
 {
