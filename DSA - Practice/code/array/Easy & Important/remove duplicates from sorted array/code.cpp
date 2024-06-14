@@ -1,5 +1,7 @@
 /*
 
+BRUTE FORCE APPROACH - O(N^2)
+
 # APPROACH
 - We will maintain a variable called current
 - Before traversing the first element will be assigned to current
