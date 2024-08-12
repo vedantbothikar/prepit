@@ -15,3 +15,22 @@ https://whimsical.com/c-stl-XVxuHHof5GTWA4NXZhXQhx
 
 - Intially the vector's capacity & size both will be 0
 - In clear, the size becomes 0 but the capacity stays the same
+
+---
+
+CLEARING all elements of vector
+
+METHOD1:
+assign the vector to a new empty vector
+TC: O(1)
+
+vec = vector<int>();
+
+_above is best way_
+
+METHOD2:
+Using the clear() method:
+The clear() method removes all elements from the vector, making its size 0. However, it does not change the capacity of the vector.
+Time Complexity: O(n) where n is the number of elements in the vector.
+
+vec.clear(); // vec is now empty
