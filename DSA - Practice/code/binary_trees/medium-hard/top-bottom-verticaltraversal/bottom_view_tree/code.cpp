@@ -24,7 +24,7 @@ private:
             int hdis = q.front().second;
             q.pop();
 
-            m[hdis] = temp->data;
+            m[hdis] = temp->data;   // unlike top view, keep updating the value at m[hdis] to get the latest value as the final bottom value
 
             if (temp->left)
             {
