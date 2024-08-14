@@ -5,7 +5,7 @@
 
 /*
 
-Here out approach is that we are considering
+Here our approach is that we are considering
 each and every node as a root node once
 and then we have to find the **height of the left and right subtrees** of
 all of these nodes

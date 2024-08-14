@@ -50,8 +50,6 @@ private:
         queue<pair<Node *, int>> q;
         q.push({root, 0});
 
-        pair<Node *, int> prev;
-
         while (!q.empty())
         {
 
