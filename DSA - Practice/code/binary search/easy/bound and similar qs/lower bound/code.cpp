@@ -12,6 +12,28 @@ but the only condition is that the index should be the smallest
 
 VIDEO: https://www.youtube.com/watch?v=6zhGS79oQ4k
 
+________________________________
+
+NOTE:
+
+In coding rounds, you can use CPP STL function to find the lower bound as below:
+(ChatGPT if you need help)
+
+    std::vector<int> vec = {1, 3, 5, 7, 9, 11}; // Sorted vector
+    int value = 5;
+
+    // Find the lower bound
+    auto lower = std::lower_bound(vec.begin(), vec.end(), value);
+
+    // Get the index by subtracting the iterator from vector's begin
+    int index = lower - vec.begin();
+
+    // Output the results
+    std::cout << "Lower bound of " << value << " is at index: " << index << std::endl;
+    
+
+
+
 */
 
 
