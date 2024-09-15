@@ -6,6 +6,8 @@ using namespace std;
 
 - Solved using BFS
 - Problem Link: https://www.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=detect-cycle-in-an-undirected-graph
+- Solution: https://youtu.be/BPlrALf1LDU
+
 
 Cycle can be detected when we meet (visit) a particular node twice.
 So, we need to perform BFS/DFS and check if we are meeting 
