@@ -1,5 +1,8 @@
 /*
 
+Problem: https://leetcode.com/problems/surrounded-regions/description/
+Solution: https://www.youtube.com/watch?v=BtdgAys4yMk
+
 logic:
 start from the border, apply dfs on all border nodes
 from border nodes whichever 0s are connected all will be safe
