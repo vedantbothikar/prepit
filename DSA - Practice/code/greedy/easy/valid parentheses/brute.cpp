@@ -1,5 +1,8 @@
 /*
 
+Problem: https://leetcode.com/problems/valid-parenthesis-string/
+Solution: https://youtu.be/cHT6sG_hUZI
+
 METHOD 1:
 
 recursion:
