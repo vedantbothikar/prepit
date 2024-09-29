@@ -8,7 +8,6 @@ int mySqrt(int x)
 
     int start = 0, end = x / 2;
     long long mid = start + (end - start) / 2;
-    int last = x / 2;
     int ans = mid;
 
     // handle when single element
@@ -30,7 +29,7 @@ int mySqrt(int x)
         }
         else if (mid * mid < x)
         {
-            ans = mid;
+            ans = mid;  // IMPORTANT STEP
             start = mid + 1;
         }
 
