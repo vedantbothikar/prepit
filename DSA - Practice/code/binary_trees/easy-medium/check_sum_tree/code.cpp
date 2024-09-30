@@ -3,6 +3,9 @@ using namespace std;
 
 /*
 
+- https://www.geeksforgeeks.org/check-if-a-given-binary-tree-is-sumtree/
+- 
+
 Approach is that  similar to how to find height you were traversing
 each and every element as you were doing it in inorder traversal
 

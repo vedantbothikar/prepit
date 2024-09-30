@@ -3,6 +3,8 @@ using namespace std;
 
 /*
 
+- https://leetcode.com/problems/same-tree/description/
+
 Approach is that we can do any type of traversal as we have done earlier
 
 Only this time during the traversal you have to also check if the
