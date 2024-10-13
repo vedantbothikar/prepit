@@ -3,6 +3,15 @@
 - https://youtu.be/e3bs0uA1NhQ?si=zx92OaZ0v9I8ysn4
 */
 
+/*
+
+# Complexity
+- Time complexity: O(N)
+
+- Space complexity: O(1) (Because the size does not go beyond 3 in the map)
+*/
+
+
 class Solution {
 public:
     int totalFruit(vector<int>& fruits) {
