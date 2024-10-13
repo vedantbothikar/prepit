@@ -2,6 +2,11 @@
 #include <queue>
 using namespace std;
 
+/*
+
+- https://youtu.be/tqQ5fTamIN4?si=QCKuacLq-riDlOtL
+*/
+
 class Stack {
 private:
     queue<int> q;   // Single queue to implement the stack
