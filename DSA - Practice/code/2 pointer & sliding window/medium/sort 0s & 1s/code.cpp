@@ -1,6 +1,14 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+/*
+
+For Single pass solution using 2 pointers: 
+Visit: https://takeuforward.org/data-structure/sort-an-array-of-0s-and-1s
+
+*/
+
+
 // 2*O(n)
 
 void printIntArray(int arr[], int size)

@@ -1,6 +1,7 @@
 /*
 
 PROBLEM: https://leetcode.com/problems/missing-number/
+- https://leetcode.com/problems/missing-number/solutions/4754401/beats-98-users-4-approaches-c-java-python-javascript-explained/
 
 
 Approach:

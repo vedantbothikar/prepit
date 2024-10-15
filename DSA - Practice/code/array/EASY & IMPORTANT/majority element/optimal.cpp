@@ -8,6 +8,8 @@ OPTIMAL SOLUTION:
 Striver video:
 https://www.youtube.com/watch?v=nP_ns3uSh80&ab_channel=takeUforward
 
+- Check explanation of all solutions: https://leetcode.com/problems/majority-element/solutions/3676530/3-method-s-beats-100-c-java-python-beginner-friendly/
+
 
 APPROACH:
 

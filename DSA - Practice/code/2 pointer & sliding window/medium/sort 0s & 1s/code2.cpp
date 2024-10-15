@@ -1,6 +1,13 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+
+/*
+Seems wrong:
+check out: https://takeuforward.org/data-structure/sort-an-array-of-0s-and-1s
+
+*/
+
 // 2 POINTER TECHNIQUE
 // O(n)
 

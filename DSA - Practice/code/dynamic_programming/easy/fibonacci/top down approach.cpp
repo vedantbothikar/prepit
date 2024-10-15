@@ -11,9 +11,6 @@ Here
 TC O(N) - because we are traversing all elements till n only once
 SC 2O(N) - because we are storing the values in dp array, this will take O(N) and
             we are using a recursive approach... so this recursive stack will take another O(N)
-
-
-
 */
 
 int fib(int n, vector<int> &dp)

@@ -5,6 +5,9 @@
 
 Problem: https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/
 
+Alternate solution: https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/solutions/5224249/efficient-easy-to-understand-c-code-beats-100/
+
+
 - sort the original array and keep that as array B
 - find the position of smallest element in the array A (which should be equal to
 zeroth element of B)
