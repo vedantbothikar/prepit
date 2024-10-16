@@ -1,5 +1,7 @@
 /*
 
+- https://leetcode.com/problems/product-of-array-except-self/description/
+
 nums [1,2,3,4]
 prefix [1, 1, 2, 6]
 suffix [24, 12, 4, 1]

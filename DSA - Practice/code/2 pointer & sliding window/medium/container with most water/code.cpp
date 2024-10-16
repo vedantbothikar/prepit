@@ -15,7 +15,7 @@ BETTER: O(N)
 2 pointers
 
 start and end
-move inwards and keep shifting only the pointer that is smaller compared to the other one (because shifting the larger one would not make sense since we will reduce the water it could hold. We shift the smaller pointer inward with the hope that we nuggt get something in the future)
+move inwards and keep shifting only the pointer that is smaller compared to the other one (because shifting the larger one would not make sense since we will reduce the water it could hold. We shift the smaller pointer inward with the hope that we get something in the future)
 
 How to calculate water?
 the water level would be determined by the smaller pointer
