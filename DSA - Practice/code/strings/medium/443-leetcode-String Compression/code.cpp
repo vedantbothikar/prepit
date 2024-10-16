@@ -3,6 +3,8 @@ using namespace std;
 
 /*
 
+- https://leetcode.com/problems/string-compression/description/
+
 We are just modifying a part of the given vector and 
 then we are returning the length of vector that is
 useful

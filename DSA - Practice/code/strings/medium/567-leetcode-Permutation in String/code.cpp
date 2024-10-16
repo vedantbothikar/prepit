@@ -1,6 +1,10 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+/*
+- https://leetcode.com/problems/permutation-in-string/description/
+*/
+
 bool checkEqual(int count1[26], int count2[26])
 {
 
