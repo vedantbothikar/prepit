@@ -1,6 +1,13 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+/*
+
+- For better code and explanation watch this: 
+    - https://youtu.be/HAgLH58IgJQ?si=-_eLcMjaoZixgD_9
+
+*/
+
 // BETTER SOLUTION
 
 // if condition:
