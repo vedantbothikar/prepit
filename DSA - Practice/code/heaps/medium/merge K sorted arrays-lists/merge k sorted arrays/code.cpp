@@ -24,6 +24,9 @@ p.first -> elementValue
 p.second.first -> arrayNumber (which position of array is it?)
 p.second.second -> elementPos (index value of the element in the array)
 
+TC: O(n*k log(n*k))
+SC: O(k)
+
 
 */
 
@@ -35,6 +38,7 @@ vector<int> mergeKSortedArrays(vector<vector<int>>&kArrays, int k)
     // Write your code here. 
 
     vector<int> ans;
+    // IMPORTANT: Look at how I have declared the pq and how the comparator method is declared
     priority_queue<pair<int, pair<int, int>>, vector<pair<int, pair<int,int>>>, greater<pair<int, pair<int,int>>>> pq;
 
     // Push first elements of all k arrays in the pq
