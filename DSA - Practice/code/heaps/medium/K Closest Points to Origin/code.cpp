@@ -1,5 +1,7 @@
 /*
 
+- https://leetcode.com/problems/k-closest-points-to-origin/description/
+
 Approach:
 - find the distance of all pairs with the origin, store then in an array called distance
 - Take the k elements from this array (in ascending order)
