@@ -1,4 +1,8 @@
 /*
+
+- https://leetcode.com/problems/last-stone-weight/description/
+
+
 Brute:
 - While there is one element left in the array, 
 - find the max, then remove the element,
