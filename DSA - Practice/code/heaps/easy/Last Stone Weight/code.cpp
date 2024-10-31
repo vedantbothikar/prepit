@@ -15,7 +15,7 @@ Better:
 - get the new last number, then pop it again
 - put the result of subtraction in the array back
 - keep doing until there is one element
-TC: O(NlogN)
+    - but when we put back the element we need to sort again, so this will take lot of time
 
 Alternative:
 - If I use make_heap method to put all elements from vector to maxheap O(N)
