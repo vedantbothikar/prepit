@@ -1,60 +1,59 @@
-#include <bits/stdc++.h>
-using namespace std;
+/*
 
-// every index is to be swaped by every next element
-// recursion for index
-// loop for swapping every next element
+for every possible position, we should have every possible element
 
-void printvec(vector<int> &output)
-{
+recursion:
+solve(index,) {
 
-    for (auto i : output)
-    {
-        cout << i << " ";
+    // base condition: when index >= nums.size()
+    finalAns.push_back(currentArr)
+
+    for(every element in nums) {
+        currentArr.push_back(nums[index])
+        solve(index+1)
+        currentArr.pop_back()
     }
 
-    cout << endl;
 }
 
-void solve(vector<int> nums, int index, vector<vector<int>> &ans)
-{
+TC: O(n!∗n)
+SC: O(n)
 
-    // base case
-    if (index >= nums.size())
-    {
-        cout << "base case hit" << endl;
-        ans.push_back(nums);
-        return;
+*/
+
+class Solution {
+
+    void solve(vector<int>& nums, int index, vector<bool> picked, vector<int> current, vector<vector<int>>& finalAns) {
+
+        // base condition
+        if(index >= nums.size()) {
+            finalAns.push_back(current);
+            return;
+        }
+
+        for(int i = 0; i < nums.size(); i++) {
+
+            if(!picked[i]) {
+
+                current.push_back(nums[i]);
+                picked[i] = true;
+
+                solve(nums, index+1, picked, current, finalAns);
+                
+                picked[i] = false;
+                current.pop_back();
+            }
+        }
     }
 
-    for (int i = index; i < nums.size(); i++)
-    {
-        // swap every next element with index element
+public:
+    vector<vector<int>> permute(vector<int>& nums) {
+        
+        vector<int> current;
+        vector<vector<int>> finalAns;
+        vector<bool> picked(nums.size(), false);
 
-        swap(nums[index], nums[i]);
-
-        solve(nums, index + 1, ans);
-
-        // backtrack
-        swap(nums[index], nums[i]);
-        // (to make sure that the variable is not a tampered one for the next iteration)
+        solve(nums, 0, picked, current, finalAns);
+        return finalAns;
     }
-}
-
-vector<vector<int>> permute(vector<int> &nums)
-{
-
-    vector<int> output;
-    vector<vector<int>> ans;
-    int index = 0;
-
-    solve(nums, index, ans);
-
-    return ans;
-}
-
-int main()
-{
-
-    return 0;
-}
+};

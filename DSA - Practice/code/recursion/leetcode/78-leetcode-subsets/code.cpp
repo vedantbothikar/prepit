@@ -1,6 +1,19 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+/*
+
+Complexity: ****MUST READ****
+- https://gist.github.com/vedantbothikar/7f623a68c01d3c2c1a3e94ab3664cd33
+
+
+*/
+
+
+/*
+- https://leetcode.com/problems/subsets/description/
+*/
+
 void solve(vector<int> nums, vector<int> output, int index, vector<vector<int>> &ans)
 {
 
