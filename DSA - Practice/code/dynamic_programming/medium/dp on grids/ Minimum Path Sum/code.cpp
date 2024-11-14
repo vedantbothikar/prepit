@@ -1,7 +1,5 @@
 #include<bits/stdc++.h>
 using namespace std;
-
-
 /*
 
 https://leetcode.com/problems/minimum-path-sum/description/
@@ -15,8 +13,6 @@ RECURSION:
 
 
 */
-
-
 
 int solveRecMem(vector<vector<int>> &grid, int n, int m, int rows, int cols, vector<vector<int>> &dp){
 
@@ -47,8 +43,6 @@ int solveRecMem(vector<vector<int>> &grid, int n, int m, int rows, int cols, vec
     return dp[rows][cols] = min(right, down);
 }
 
-
-
 int minSumPath(vector<vector<int>> &grid) {
     // Write your code here.
 
@@ -58,30 +52,6 @@ int minSumPath(vector<vector<int>> &grid) {
 
     return solveRecMem(grid, n, m, 0, 0, dp);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 int main () {
 
