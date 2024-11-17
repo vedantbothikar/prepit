@@ -23,7 +23,7 @@ Approach:
 
 So we already know how to find the kth largest element in any array using minheap
 And this takes 
-	TC: O(n*logk) 
+	TC: O(n^2*logk) 
 	SC: O(k)	// k will be smaller than n^2 of the previous approach
 */
 
