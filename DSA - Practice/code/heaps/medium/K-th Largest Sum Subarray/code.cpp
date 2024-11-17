@@ -1,4 +1,12 @@
 /*
+
+- https://www.naukri.com/code360/problems/k-th-largest-sum-contiguous-subarray_920398
+
+
+*/
+
+
+/*
 Approach:
 - First we will find the the list of sums of all 
 subarrays O(N^2)
@@ -17,10 +25,6 @@ So we already know how to find the kth largest element in any array using minhea
 And this takes 
 	TC: O(n*logk) 
 	SC: O(k)	// k will be smaller than n^2 of the previous approach
-
-
-
-
 */
 
 
