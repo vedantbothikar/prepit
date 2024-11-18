@@ -1,5 +1,6 @@
 /*
 
+- https://leetcode.com/problems/min-stack/description/
 Maintain another stack called minStack that holds the minimum element at the current position of the curernt element element at the original stack.
 
 Watch: https://youtu.be/qkLl7nAwDPo
