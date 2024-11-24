@@ -4,6 +4,8 @@ using namespace std;
 #include<bits/stdc++.h>
 /*
 
+- https://leetcode.com/problems/longest-common-subsequence/description/
+
 
 BASE CASES:
 - Whenever any length goes to less than 0
