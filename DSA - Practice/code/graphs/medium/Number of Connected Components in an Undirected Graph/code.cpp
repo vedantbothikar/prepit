@@ -8,6 +8,9 @@
 - visit all elements (that are not marked as visited) (dfs)
     - as and when you visit a node, it will be a new component. count++
 
+TC: O(V+E)
+SC: O(V+E)
+
 */
 class Solution {
 
