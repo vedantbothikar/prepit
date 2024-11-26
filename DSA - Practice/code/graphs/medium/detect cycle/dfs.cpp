@@ -17,7 +17,7 @@ class Solution {
                 vis[child] = 1;
                 dfs(V, adj, child, start, vis, ans);
             }
-            else if(child == parent) {
+            else if(child != parent) {
                 ans = true;
             }
         }  
@@ -32,6 +32,7 @@ class Solution {
         vector<int> vis(V, 0);
         bool ans = false;
         
+        // loop through all vertices because there could be disconnected graphs as well
         for(int i = 0; i < V; i++) {
             
             if(ans) return true;

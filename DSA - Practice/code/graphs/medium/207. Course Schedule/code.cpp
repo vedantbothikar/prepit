@@ -19,6 +19,10 @@ So for every element in the adjacency list:
 TC: O(V+E)
 SC: O(V+E)
 
+
+
+IMPORTANT: This shows how to detect loop in undirected graph
+
 */
 class Solution {
 
