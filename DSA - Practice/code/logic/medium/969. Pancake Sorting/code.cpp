@@ -1,5 +1,7 @@
 /*
 
+NOTE: bad question. Could be ignored if you want
+
 - https://leetcode.com/problems/pancake-sorting/
 
 So we will first find the largest element and place it at the end
