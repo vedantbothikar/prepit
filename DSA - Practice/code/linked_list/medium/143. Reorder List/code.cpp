@@ -10,6 +10,10 @@
  */
 /*
 
+- https://leetcode.com/problems/reorder-list/description/
+
+### NOTE: This solution is using additional space 
+
 I can use a queue:
 - push all nodes into the queue
 
