@@ -8,6 +8,7 @@ For this to work with negative integers as well, check other solution.
 It will not work for negatives because of the inner while loop and its conditions
 
 TC: O(n)
+SC: O(1)
 
 */
 
@@ -25,6 +26,7 @@ int longestSubarrayWithSumK(vector<int> arr, long long target) {
             currSum += arr[right];
             
             // decrement left if sum > target
+            // NOTE: because of currSum > target this condition: it will NOT work for array with negatives
             while(left <= right && currSum > target) {
                 
                 currSum -= arr[left];
