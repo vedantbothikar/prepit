@@ -9,6 +9,8 @@ Watch this video (watch the better solution in that)
 - https://www.youtube.com/watch?v=frf7qxiN2qU&ab_channel=takeUforward
 
 
+map <sum, index>
+
 // Here we are taking extra space compared to other
 TC: O(n)
 SC: O(n)
@@ -21,9 +23,8 @@ class Solution {
     int lenOfLongestSubarr(vector<int>& nums, int target) {
         // code here
         
-        
         int n = nums.size();
-        unordered_map<ll, int> mp;
+        unordered_map<ll, int> mp;  // map <sum, index>
         int maxLen = 0;
         ll sum = 0;
 

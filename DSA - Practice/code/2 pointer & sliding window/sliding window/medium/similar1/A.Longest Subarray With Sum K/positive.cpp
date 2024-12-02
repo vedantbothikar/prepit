@@ -3,6 +3,10 @@
 - https://www.naukri.com/code360/problems/longest-subarray-with-sum-k_6682399?utm_source=youtube&utm_medium=affiliate&utm_campaign=striver_Arrayproblems&leftPanelTabValue=PROBLEM
 - https://takeuforward.org/data-structure/longest-subarray-with-given-sum-k/
 
+Watch this video 
+- https://www.youtube.com/watch?v=frf7qxiN2qU&ab_channel=takeUforward
+
+
 NOTE: this solution will only work for positive integers
 For this to work with negative integers as well, check other solution.
 It will not work for negatives because of the inner while loop and its conditions
