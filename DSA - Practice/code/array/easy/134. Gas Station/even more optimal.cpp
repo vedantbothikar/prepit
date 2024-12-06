@@ -10,6 +10,11 @@ checking if the soltuion exists or not
 (which is the same as accumulate in my code.cpp)
 
 
+You can also check this solution:
+- https://leetcode.com/problems/gas-station/solutions/6003362/video-2-solutions-o-n-time-and-o-1-space
+
+
+
 */
 
 
