@@ -1,5 +1,7 @@
 /*
 
+- https://leetcode.com/problems/next-greater-element-i/description/
+
 First think about how to find the next greater element of any element
 - find the element in the nums2 
 - traverse ahead from that element,

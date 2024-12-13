@@ -1,5 +1,7 @@
 /*
 
+- https://leetcode.com/problems/take-gifts-from-the-richest-pile/description/
+
 - Take max element
 - Take x from that. (Meaning change the value to something else)
 
