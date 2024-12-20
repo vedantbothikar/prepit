@@ -7,7 +7,7 @@ to determine if we could attend all meetings, we need to check for any overlappi
 
 So if we first sort it based on the start time and then check if the starttime of current meeting overlaps with the endTime of previous meeting, we can find collision
 
-TC: O(n)
+TC: O(nlogn)
 SC: O(1)
 
 */
