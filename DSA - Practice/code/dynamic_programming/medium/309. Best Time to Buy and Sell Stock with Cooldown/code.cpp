@@ -1,8 +1,13 @@
 /*
 
 
-- https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/
+Prefer this solution
 
+- https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/
+- https://neetcode.io/solutions/best-time-to-buy-and-sell-stock-with-cooldown
+
+TC: O(n)
+SC: O(n)
 
 
 */
