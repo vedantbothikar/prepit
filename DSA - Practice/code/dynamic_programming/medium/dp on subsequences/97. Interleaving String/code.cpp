@@ -1,5 +1,8 @@
 /*
 
+- https://leetcode.com/problems/interleaving-string/description/
+- https://neetcode.io/solutions/interleaving-string
+
 combinations: recursion
 
 choices?:
@@ -23,6 +26,9 @@ The current position in s3 (ind3) is uniquely determined by the positions in s1 
 `ind3=ind1+ind2`
 This is because s3 is formed by interleaving s1 and s2, so the total number of characters processed so far is the sum of the characters taken from s1 and s2.
 
+
+TC: O(n1 * n2)
+SC: O(n1 * n2)
 
 
 */
