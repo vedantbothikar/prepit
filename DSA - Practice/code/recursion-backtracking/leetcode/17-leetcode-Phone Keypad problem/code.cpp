@@ -1,82 +1,48 @@
-#include <bits/stdc++.h>
-using namespace std;
+/*
 
-void solve(string digits, string output, int index, vector<string> &ans, vector<char> alphabet)
-{
-    // base case
-    if (index >= digits.length())
-    {
-        return;
+- https://leetcode.com/problems/letter-combinations-of-a-phone-number/
+
+*/
+
+class Solution {
+
+    void populateMap(unordered_map <char, string>& mp) {
+
+        mp['2'] = "abc"; mp['3'] = "def"; mp['4'] = "ghi";
+        mp['5'] = "jkl"; mp['6'] = "mno"; mp['7'] = "pqrs";
+        mp['8'] = "tuv"; mp['9'] = "wxyz";
     }
 
-    string output1 = output, output2 = output, output3 = output, output4 = output;
+    void solve(string& digits, unordered_map<char, string>& mp, int index, string& subans, vector<string>& ans) {
 
-    char charnum = digits[index];
-    string strnum;
-    strnum = charnum;
-    int intnum = stoi(strnum);
+        // base condition
+        if(index >= digits.size()) {
+            ans.push_back(subans);
+        }
 
-    char firstcharacter = alphabet[intnum];
-    char secondcharacter = firstcharacter + 1;
-    char thirdcharacter = firstcharacter + 2;
-    char fourthcharacter = firstcharacter + 3;
-
-    bool fourth = false;
-    if (intnum == 7 || intnum == 9)
-    {
-        fourth = true;
-    }
-
-    cout << "firstcharacter " << firstcharacter << " value: " << intnum + 95 << endl;
-
-    output1 = output1 + firstcharacter;
-    output2 = output2 + secondcharacter;
-    output3 = output3 + thirdcharacter;
-    output4 = output4 + fourthcharacter;
-
-    solve(digits, output1, index + 1, ans, alphabet);
-    if (output1.length() == digits.length())
-    {
-        ans.push_back(output1);
-    }
-
-    solve(digits, output2, index + 1, ans, alphabet);
-    if (output2.length() == digits.length())
-    {
-        ans.push_back(output2);
-    }
-
-    solve(digits, output3, index + 1, ans, alphabet);
-    if (output3.length() == digits.length())
-    {
-        ans.push_back(output3);
-    }
-
-    if (fourth)
-    {
-        solve(digits, output4, index + 1, ans, alphabet);
-        if (output4.length() == digits.length())
-        {
-            ans.push_back(output4);
+        // Try all characters mapped to the current digit
+        for (char ch : mp[digits[index]]) {
+            subans.push_back(ch);           // Add current character
+            solve(digits, mp, index + 1, subans, ans); // Recursive call
+            subans.pop_back();              // Backtrack
         }
     }
-}
 
-vector<string> letterCombinations(string digits)
-{
+public:
+    vector<string> letterCombinations(string digits) {
 
-    vector<string> ans;
-    int index = 0;
-    string output = "";
-    vector<char> alphabet = {'a', 'a', 'a', 'd', 'g', 'j', 'm', 'p', 't', 'w'};
+        // base case when digits size is 0
+        if(digits.size() == 0) return {};
 
-    solve(digits, output, index, ans, alphabet);
+        unordered_map <char, string> mp;
+        populateMap(mp);
+        
+        vector<string> ans;
+        string subans = "";
+        
+        int index = 0;
 
-    return ans;
-}
-
-int main()
-{
-
-    return 0;
-}
+        solve(digits, mp, index, subans, ans);
+        return ans;
+    }
+};
