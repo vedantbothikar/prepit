@@ -43,6 +43,11 @@ SC O(N)
 
 *****************************************************************/
 
+/*
+
+- https://leetcode.com/problems/reverse-linked-list/description/?envType=study-plan-v2&envId=programming-skills
+*/
+
 // solving iteratively
 LinkedListNode<int> *solve(LinkedListNode<int> *head)
 {
