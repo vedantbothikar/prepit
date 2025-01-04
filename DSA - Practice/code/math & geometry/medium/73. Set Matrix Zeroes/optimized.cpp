@@ -8,6 +8,9 @@ col0 = 1
 first row 
 first col
 
+
+OR ELSE check alternate_optimized.cpp
+
 */
 
 
