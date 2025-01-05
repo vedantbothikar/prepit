@@ -1,6 +1,8 @@
 /*
 
 - https://neetcode.io/problems/count-connected-components
+- https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/description/?envType=problem-list-v2&envId=anl1el4e
+
 - https://neetcode.io/solutions/number-of-connected-components-in-an-undirected-graph
 
 
