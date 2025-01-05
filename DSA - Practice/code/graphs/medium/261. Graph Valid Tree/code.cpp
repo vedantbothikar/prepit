@@ -1,6 +1,8 @@
 /*
 
 - https://neetcode.io/problems/valid-tree
+- https://leetcode.com/problems/graph-valid-tree/description/?envType=problem-list-v2&envId=anl1el4e
+
 - https://neetcode.io/solutions/graph-valid-tree
 
 Conditions for a valid tree:
