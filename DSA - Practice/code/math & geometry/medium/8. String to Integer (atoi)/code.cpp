@@ -1,5 +1,8 @@
 /*
 
+- https://leetcode.com/problems/string-to-integer-atoi/description/
+
+
 Step1: Keep reading until you have non-whitespace character
 
 Step2: Check if it is a negative or positive character. If none of them, assume positive
