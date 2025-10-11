@@ -4,6 +4,11 @@
 https://leetcode.com/problems/number-of-recent-calls/description/
 
 
+NOTE: 
+Similar to 362. Design Hit Counter
+Link: https://leetcode.com/problems/design-hit-counter/
+
+
 */
 
 class RecentCounter {
