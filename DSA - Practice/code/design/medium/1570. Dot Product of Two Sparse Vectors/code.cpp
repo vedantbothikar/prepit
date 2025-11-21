@@ -1,4 +1,13 @@
+
 /*
+
+Problem Statement:
+1570. Dot Product of Two Sparse Vectors
+
+
+Problem Link:
+
+- https://leetcode.com/problems/dot-product-of-two-sparse-vectors/?envType=problem-list-v2&envId=design
 
 Constructor:
 When we get the nums, we store the index and value of the non zero elements in nums. (hashmap)
